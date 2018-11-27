@@ -1656,7 +1656,7 @@ class TurtleWindow(object):
         self._screen = turtle.Screen()
         turtle.Turtle._screen = self._screen
 
-    def close_on_mouse_click(self):
+    def close_on_mouse_click(self) -> object:
         message = 'To exit, click anywhere in this window'
         self.display_message(message, Point(0, 280))
 
