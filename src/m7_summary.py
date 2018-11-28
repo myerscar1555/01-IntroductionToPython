@@ -55,4 +55,4 @@ turt.pen = rg.Pen('Green',10)
 turt.right(180)
 turt.forward(150)
 
-window.close_on_mouse_click()
+window.close_on_mouse_click(
